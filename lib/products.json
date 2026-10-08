@@ -1,0 +1,282 @@
+[
+  {
+    "id": "sq-chain-steel",
+    "slug": "square-chain-bracelet",
+    "name": "Square Chain",
+    "type": "chain",
+    "material": "steel",
+    "badge": ["New"],
+    "unisize": true,
+    "basePrice": 23,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 2, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 4, "weight": 12, "fit": "Unisize 17–21 cm" },
+    "description": "A square-link chain cut from recycled 316L stainless steel. Matte-brushed finish, polished edges. Fastens with a solid lobster clasp. Wears well in water.",
+    "care": "Rinse after saltwater. Polish with a dry cloth. Avoid bleach.",
+    "images": [],
+    "wearWith": ["lin-chain-steel", "stack-cuff-steel"]
+  },
+  {
+    "id": "lin-chain-steel",
+    "slug": "linear-chain-bracelet",
+    "name": "Linear Chain",
+    "type": "chain",
+    "material": "steel",
+    "badge": [],
+    "unisize": true,
+    "basePrice": 23,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 2, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 3, "weight": 10, "fit": "Unisize 17–21 cm" },
+    "description": "Flat oval links in a slim, refined silhouette. Recycled 316L stainless steel. A staple piece that layers under anything.",
+    "care": "Rinse after saltwater. Polish with a dry cloth. Avoid bleach.",
+    "images": [],
+    "wearWith": ["sq-chain-steel", "slim-cuff-steel"]
+  },
+  {
+    "id": "box-chain-steel",
+    "slug": "box-chain-bracelet",
+    "name": "Box Chain",
+    "type": "chain",
+    "material": "steel",
+    "badge": [],
+    "unisize": true,
+    "basePrice": 23,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 2, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "gold",
+    "specs": { "width": 3.5, "weight": 11, "fit": "Unisize 17–21 cm" },
+    "description": "Classic box links in three dimensions. Recycled 316L stainless steel. Sits flat against the wrist without rotating.",
+    "care": "Rinse after saltwater. Polish with a dry cloth. Avoid bleach.",
+    "images": [],
+    "wearWith": ["lin-chain-steel", "wide-cuff-steel"]
+  },
+  {
+    "id": "wire-chain-steel",
+    "slug": "wire-chain-bracelet",
+    "name": "Wire Chain",
+    "type": "chain",
+    "material": "steel",
+    "badge": ["New"],
+    "unisize": true,
+    "basePrice": 23,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "black",
+    "specs": { "width": 2, "weight": 8, "fit": "Unisize 17–21 cm" },
+    "description": "Thin, sculptural wire links. The lightest piece in the collection. Pairs with chunkier cuffs for contrast.",
+    "care": "Rinse after saltwater. Polish with a dry cloth. Avoid bleach.",
+    "images": [],
+    "wearWith": ["sq-chain-steel", "stack-cuff-steel"]
+  },
+  {
+    "id": "fine-chain-steel",
+    "slug": "fine-chain-bracelet",
+    "name": "Fine Chain",
+    "type": "chain",
+    "material": "steel",
+    "badge": [],
+    "unisize": true,
+    "basePrice": 23,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 2, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" }
+    ],
+    "defaultFinish": "gold",
+    "specs": { "width": 1.5, "weight": 6, "fit": "Unisize 17–21 cm" },
+    "description": "A barely-there fine cable chain. Minimal mass, maximum wearability. Stacks invisibly with any cuff.",
+    "care": "Rinse after saltwater. Polish with a dry cloth. Avoid bleach.",
+    "images": [],
+    "wearWith": ["lin-chain-steel", "oct-chain-silver"]
+  },
+  {
+    "id": "stack-cuff-steel",
+    "slug": "stack-cuff-bracelet",
+    "name": "Stack Cuff",
+    "type": "cuff",
+    "material": "steel",
+    "badge": [],
+    "unisize": false,
+    "basePrice": 24,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 3, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 6, "weight": 16, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "A solid open-ended cuff engineered to stack. Interior is radius-matched so three sit flush. Recycled 316L stainless steel.",
+    "care": "Do not flex repeatedly. Clean with a dry cloth.",
+    "images": [],
+    "wearWith": ["wire-chain-steel", "sq-chain-steel"]
+  },
+  {
+    "id": "slim-cuff-steel",
+    "slug": "slim-cuff-bracelet",
+    "name": "Slim Cuff",
+    "type": "cuff",
+    "material": "steel",
+    "badge": [],
+    "unisize": false,
+    "basePrice": 25,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 4, "weight": 14, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "A slimmer take on the open cuff. Brushed exterior, mirror-polished inner rim. Pairs with both chains and wider cuffs.",
+    "care": "Do not flex repeatedly. Clean with a dry cloth.",
+    "images": [],
+    "wearWith": ["lin-chain-steel", "stack-cuff-steel"]
+  },
+  {
+    "id": "wide-cuff-steel",
+    "slug": "wide-cuff-bracelet",
+    "name": "Wide Cuff",
+    "type": "cuff",
+    "material": "steel",
+    "badge": [],
+    "unisize": false,
+    "basePrice": 27,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#e8eaf0,#a0a8b8,#d0d4de)" },
+      { "id": "gold", "label": "Gold", "priceAdj": 4, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" },
+      { "id": "black", "label": "Black", "priceAdj": 0, "gradient": "linear-gradient(135deg,#3a3a3a,#111,#555)" }
+    ],
+    "defaultFinish": "black",
+    "specs": { "width": 14, "weight": 28, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "Statement width, architectural lines. The widest piece in the steel collection. Makes a strong solo wear.",
+    "care": "Do not flex repeatedly. Clean with a dry cloth.",
+    "images": [],
+    "wearWith": ["fine-chain-steel", "box-chain-steel"]
+  },
+  {
+    "id": "oct-chain-silver",
+    "slug": "octagon-chain-bracelet",
+    "name": "Octagon Chain",
+    "type": "chain",
+    "material": "silver",
+    "badge": ["925"],
+    "unisize": true,
+    "basePrice": 78,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 5, "weight": 14, "fit": "Unisize 17–21 cm" },
+    "description": "Eight-sided links in hallmarked 925 sterling silver. Each link is individually faceted — the geometry catches light from every angle.",
+    "care": "Store in the anti-tarnish pouch provided. Polish with a silver cloth.",
+    "images": [],
+    "wearWith": ["clasp-chain-silver", "veer-cuff-silver"]
+  },
+  {
+    "id": "clasp-chain-silver",
+    "slug": "clasp-chain-bracelet",
+    "name": "Clasp Chain",
+    "type": "chain",
+    "material": "silver",
+    "badge": ["925"],
+    "unisize": true,
+    "basePrice": 78,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 4, "weight": 12, "fit": "Unisize 17–21 cm" },
+    "description": "A paperclip-link chain with an oversized push-clasp as the centrepiece. Hallmarked 925 sterling silver. Adjustable drop length.",
+    "care": "Store in the anti-tarnish pouch provided. Polish with a silver cloth.",
+    "images": [],
+    "wearWith": ["oct-chain-silver", "heritage-cuff-silver"]
+  },
+  {
+    "id": "veer-cuff-silver",
+    "slug": "veer-cuff-bracelet",
+    "name": "Veer Cuff",
+    "type": "cuff",
+    "material": "silver",
+    "badge": ["925"],
+    "unisize": false,
+    "basePrice": 138,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" },
+      { "id": "gold", "label": "Gold Vermeil", "priceAdj": 26, "gradient": "linear-gradient(135deg,#f5d98e,#b8942a,#f0c94c)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 10, "weight": 22, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "An asymmetric cuff that tapers to a point on one side. Hallmarked 925 sterling silver. Available in gold vermeil (3-micron 18k plating over silver).",
+    "care": "Store in the anti-tarnish pouch provided. Avoid water for the gold vermeil finish.",
+    "images": [],
+    "wearWith": ["oct-chain-silver", "clasp-chain-silver"]
+  },
+  {
+    "id": "heritage-cuff-silver",
+    "slug": "heritage-cuff-bracelet",
+    "name": "Heritage Cuff",
+    "type": "cuff",
+    "material": "silver",
+    "badge": ["925"],
+    "unisize": false,
+    "basePrice": 148,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 12, "weight": 26, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "A wide, unadorned cuff with a hammered interior texture. Heavy and grounding. Hallmarked 925 sterling silver.",
+    "care": "Store in the anti-tarnish pouch provided. Polish with a silver cloth.",
+    "images": [],
+    "wearWith": ["clasp-chain-silver", "signet-silver"]
+  },
+  {
+    "id": "signet-silver",
+    "slug": "signet-bracelet",
+    "name": "Signet",
+    "type": "signet",
+    "material": "silver",
+    "badge": ["925"],
+    "unisize": false,
+    "basePrice": 158,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 8, "weight": 20, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "A bracelet centrepiece modelled on a classic signet. Oval face, flat-top, set into a fine chain. Hallmarked 925 sterling silver.",
+    "care": "Store in the anti-tarnish pouch provided. Polish with a silver cloth.",
+    "images": [],
+    "wearWith": ["heritage-cuff-silver", "ripple-signet-silver"]
+  },
+  {
+    "id": "ripple-signet-silver",
+    "slug": "ripple-signet-bracelet",
+    "name": "Ripple Signet",
+    "type": "signet",
+    "material": "silver",
+    "badge": ["925", "New"],
+    "unisize": false,
+    "basePrice": 168,
+    "finishes": [
+      { "id": "silver", "label": "Silver", "priceAdj": 0, "gradient": "linear-gradient(135deg,#f0f2f7,#c8cede,#e4e8f2)" }
+    ],
+    "defaultFinish": "silver",
+    "specs": { "width": 9, "weight": 22, "fit": "S (15–17 cm) / M (17–19 cm) / L (19–21 cm)" },
+    "description": "A signet with a concentric-ring face — cast from one piece, no assembly. Hallmarked 925 sterling silver.",
+    "care": "Store in the anti-tarnish pouch provided. Polish with a silver cloth.",
+    "images": [],
+    "wearWith": ["signet-silver", "oct-chain-silver"]
+  }
+]
