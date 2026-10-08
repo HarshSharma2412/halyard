@@ -1,11 +1,18 @@
 import Link from 'next/link';
+import settings from '@/lib/settings.json';
 
 export function SiteFooter() {
+  const brandName = settings.brandName || 'Halyard';
+  const footerDesc = settings.footerDescription ||
+    'Engineering permanent, sculptural jewelry in recycled marine-grade 316L stainless steel and certified 925 sterling silver. Built to withstand saltwater, sweat, and time.';
+  const location = settings.studioLocation || 'DESIGNED IN COPENHAGEN • CAST RESPONSIBLY';
+  const email = settings.supportEmail || 'concierge@halyard.studio';
+
   return (
     <footer aria-label="Site footer">
       <div className="site-footer">
         <div className="footer-col">
-          <h4>Halyard Studio</h4>
+          <h4>{brandName} Studio</h4>
           <p
             style={{
               fontSize: '0.82rem',
@@ -14,8 +21,7 @@ export function SiteFooter() {
               marginBottom: '16px',
             }}
           >
-            Engineering permanent, sculptural jewelry in recycled marine-grade 316L stainless steel
-            and certified 925 sterling silver. Built to withstand saltwater, sweat, and time.
+            {footerDesc}
           </p>
           <span
             style={{
@@ -25,7 +31,7 @@ export function SiteFooter() {
               letterSpacing: '0.06em',
             }}
           >
-            DESIGNED IN COPENHAGEN • CAST RESPONSIBLY
+            {location}
           </span>
         </div>
 
@@ -53,13 +59,13 @@ export function SiteFooter() {
           <Link href="/our-story#shipping">Global Shipping &amp; Duties</Link>
           <Link href="/our-story#returns">30-Day Hassle-Free Returns</Link>
           <Link href="/saved">Saved Items</Link>
-          <a href="mailto:concierge@halyard.studio">concierge@halyard.studio</a>
+          <a href={`mailto:${email}`}>{email}</a>
         </div>
       </div>
 
       <div className="footer-bottom">
         <div>
-          &copy; 2026 HALYARD JEWELRY CO. ALL RIGHTS RESERVED.
+          &copy; 2026 {brandName.toUpperCase()} JEWELRY CO. ALL RIGHTS RESERVED.
         </div>
 
         <div className="payment-icons" aria-label="Accepted payment methods">

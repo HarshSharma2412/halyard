@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { ShoppingBag, Heart, Sun, Moon, X, Menu } from 'lucide-react';
 import { useCartStore, useSavedStore, useUIStore } from '@/lib/store';
 import { CURRENCY_SYMBOLS, type Currency } from '@/lib/types';
+import settings from '@/lib/settings.json';
 
 const NAV_LINKS = [
   { href: '/bracelets', label: 'Bracelets' },
@@ -32,8 +33,12 @@ export function SiteHeader() {
         </nav>
 
         {/* Logo */}
-        <Link href="/" className="site-logo" aria-label="Halyard home">
-          Halyard
+        <Link href="/" className="site-logo" aria-label={`${settings.brandName} home`}>
+          {settings.logoUrl ? (
+            <img src={settings.logoUrl} alt={settings.brandName} style={{ maxHeight: '32px', width: 'auto', display: 'block' }} />
+          ) : (
+            settings.logoText || settings.brandName
+          )}
         </Link>
 
         {/* Actions */}

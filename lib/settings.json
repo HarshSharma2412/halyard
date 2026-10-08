@@ -1,0 +1,20 @@
+{
+  "brandName": "Halyard",
+  "logoText": "HALYARD",
+  "logoUrl": "",
+  "tagline": "Engineered Men's & Unisex Jewelry",
+  "accentColor": "hsl(192 60% 38%)",
+  "accentHi": "hsl(192 70% 52%)",
+  "accentLo": "hsl(192 50% 22%)",
+  "bgDark": "hsl(220 14% 8%)",
+  "bgDark2": "hsl(220 12% 11%)",
+  "bgDark3": "hsl(220 10% 15%)",
+  "announcementText": "Free shipping on orders over €40 · Lifetime warranty on all pieces",
+  "announcementCtaText": "SHOP NOW →",
+  "announcementCtaLink": "/bracelets",
+  "newsletterHeadline": "First Run Drops & Private Previews",
+  "newsletterDescription": "Receive advance notice when limited batch runs in 925 sterling silver are cast. Direct dispatches only, no marketing clutter.",
+  "supportEmail": "concierge@halyard.studio",
+  "studioLocation": "DESIGNED IN COPENHAGEN • CAST RESPONSIBLY",
+  "footerDescription": "Engineering permanent, sculptural jewelry in recycled marine-grade 316L stainless steel and certified 925 sterling silver. Built to withstand saltwater, sweat, and time."
+}

@@ -1,10 +1,15 @@
 'use client';
 import { useState } from 'react';
 import { Check } from 'lucide-react';
+import settings from '@/lib/settings.json';
 
 export function Newsletter() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+
+  const headline = settings.newsletterHeadline || 'First Run Drops & Private Previews';
+  const desc = settings.newsletterDescription ||
+    'Receive advance notice when limited batch runs in 925 sterling silver are cast. Direct dispatches only, no marketing clutter.';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -15,7 +20,7 @@ export function Newsletter() {
   return (
     <section className="newsletter-band" aria-labelledby="newsletter-heading">
       <div className="section-label">Editorial &amp; Releases</div>
-      <h2 id="newsletter-heading">First Run Drops &amp; Private Previews</h2>
+      <h2 id="newsletter-heading">{headline}</h2>
       <p
         style={{
           color: 'var(--text-muted)',
@@ -25,8 +30,7 @@ export function Newsletter() {
           marginTop: '-8px',
         }}
       >
-        Receive advance notice when limited batch runs in 925 sterling silver are cast.
-        Direct dispatches only, no marketing clutter.
+        {desc}
       </p>
 
       {submitted ? (

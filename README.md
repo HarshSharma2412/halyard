@@ -161,13 +161,42 @@ To add real photos:
 
 ---
 
+## 🛠️ Host Admin Panel & Visual CMS (`/admin`)
+
+A built-in administrative suite is provided to manage your catalog, brand identity, colors, and media directly from the browser without code edits:
+
+- **Access URL**: [`/admin`](http://localhost:3000/admin)
+- **Default Development Password**: `halyard-admin` (configure `ADMIN_PASSWORD` in `.env.local`)
+
+### Features
+1. **📦 Product Manager (`/admin/products`)**:
+   - Add new products or edit existing jewelry items.
+   - Upload and delete product photos with instant preview.
+   - Adjust prices, material types (`steel` or `silver`), styles, specs, and badges.
+   - Changes automatically save to [`lib/products.json`](file:///c:/vlacier/lib/products.json).
+
+2. **🎨 Brand & Appearance (`/admin/settings`)**:
+   - **Brand Name & Logo**: Change the brand name, uppercase logo text, or upload a custom image logo (PNG/SVG/WebP).
+   - **Colour Palette**: Customize the primary accent color, hover states, and background dark/surface tones via visual color pickers.
+   - **Announcement Bar**: Modify promotional announcements, CTA text, and destination links.
+   - **Editorial & Footer**: Update newsletter copy, studio location, support email, and footer story.
+   - Changes automatically save to [`lib/settings.json`](file:///c:/vlacier/lib/settings.json).
+
+3. **🖼️ Media Library (`/admin/media`)**:
+   - Upload imagery directly to `public/products/`.
+   - Grid preview with single-click URL copying and image deletion.
+
+---
+
 ## 📝 Still Needs Your Input (Production Checklist)
 
 1. **Product Photography**:
-   - High-resolution studio lifestyle and flat-lay photography to replace the SVG placeholders in `lib/products.json`.
+   - Upload real studio photography via the Admin Media Library or place images in `public/products/`.
 2. **Live Stripe Credentials**:
-   - Provide your live `STRIPE_SECRET_KEY` and `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` in production deployment.
-3. **Domain & Analytics**:
-   - Configure your custom domain DNS and Google Tag Manager / Meta Pixel if running paid acquisition.
-4. **Legal Pages**:
-   - Replace concierge email (`concierge@halyard.studio`) with your operational support mailbox.
+   - Set `STRIPE_SECRET_KEY` and `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` in production.
+3. **Admin Password**:
+   - Change `ADMIN_PASSWORD` in your production environment variables.
+4. **Domain & Analytics**:
+   - Configure custom domain DNS and Google Tag Manager / Meta Pixel.
+5. **Support Inbox**:
+   - Set your real customer service email in `/admin/settings`.
